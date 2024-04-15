@@ -1,0 +1,42 @@
+@media (min-width: 993px) and (max-width: 1300px){
+    
+}
+
+@media (min-width: 769px) and (max-width: 992px){
+    #txt1{
+        font-size: 150px;
+    }
+    #txt2{
+        font-size: 100px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px){
+    #txt1{
+        font-size: 100px;
+    }
+    #txt2{
+        font-size: 100px;
+    }
+    #box{
+        margin-top: 0vh;
+    }
+    .offcanvas{
+        width: 100%;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 576px){
+    #txt1{
+        font-size: 50px;
+    }
+    #txt2{
+        font-size: 50px;
+    }
+    #box{
+        margin-top: 0vh;
+    }
+    .offcanvas{
+        width: 100%;
+    }
+}

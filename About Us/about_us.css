@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+}
+
+.offcanvas{
+    width: 35%;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url(/Segoe-UI-Font/SEGOEUI.TTF);
+}
+
+#a1{
+    width: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+#a1:hover{
+    opacity: 0.5;
+}
+
+header{
+    height: 13vh;
+}
+
+.head1 img{
+    height: 50px;
+}
+
+.head1 p{
+    transition-duration: 0.5s;
+}
+
+.head1 p:hover{
+    border-bottom: 1px solid black;
+}
+
+#txt1{
+    font-size: 300px;
+    opacity: 0.1;
+    font-weight: lighter;
+}
+
+#txt2{
+    line-height: 30px;
+    color: #646262;
+}
+
+.main1{
+    width: 50%;
+    margin-left: 25%;
+    /* border: 1px solid black; */
+    position: relative;
+    top: -33vh;
+}
+
+.btn1{
+    height: 45px;
+    width: 150px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+.btn1:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+
+.btn2{
+    height: 45px;
+    width: 150px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition-duration: 0.5s;
+    background-color: black;
+    color: white;
+}
+
+.btn2:hover{
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+
+.main4{
+    transition-duration: 0.5s;
+}
+
+#img1{
+    transition-duration: 0.5s;
+}
+
+#img1:hover{
+    transform: scale(1.1) rotate(5deg);
+}
+
+.background{
+    background-color: #232323;
+    transition-duration: 0.5s;
+}
+
+
+footer{
+    background-color: #232323;
+}

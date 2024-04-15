@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+}
+
+.offcanvas{
+    width: 35%;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url(/Segoe-UI-Font/SEGOEUI.TTF);
+}
+
+#a1{
+    width: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+#a1:hover{
+    opacity: 0.5;
+}
+
+header{
+    height: 13vh;
+}
+
+.head1 img{
+    height: 50px;
+}
+
+.head1 p{
+    transition-duration: 0.5s;
+}
+
+.head1 p:hover{
+    border-bottom: 1px solid black;
+}
+
+#txt1{
+    font-size: 300px;
+    opacity: 0.1;
+    font-weight: lighter;
+}
+
+.box2{
+    width: auto;
+    border: 1px solid #847e7e;
+}
+
+#input1{
+    height: 45px;
+    width: 32%;
+    background-color: #f1f1f1;
+    border: 0px;
+    border-radius: 5px;
+    text-indent: 5px;
+}
+
+#input2{
+    height: 150px;
+    width: 100%;
+    background-color: #f1f1f1;
+    border: 0px;
+    border-radius: 5px;
+    text-indent: 5px;
+}
+
+.btn1{
+    height: 45px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: transparent;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+.btn1:hover{
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+
+footer{
+    background-color: #232323;
+}

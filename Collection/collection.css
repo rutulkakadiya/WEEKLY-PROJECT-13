@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+}
+
+.offcanvas{
+    width: 35%;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url(/Segoe-UI-Font/SEGOEUI.TTF);
+}
+
+#a1{
+    width: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+#a1:hover{
+    opacity: 0.5;
+}
+
+header{
+    height: 13vh;
+}
+
+.head1 img{
+    height: 50px;
+}
+
+.head1 p{
+    transition-duration: 0.5s;
+}
+
+.head1 p:hover{
+    border-bottom: 1px solid black;
+}
+
+#txt1{
+    font-size: 300px;
+    opacity: 0.1;
+    font-weight: lighter;
+}
+
+.btn1{
+    height: 45px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: transparent;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+.btn1:hover{
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+
+footer{
+    background-color: #232323;
+}
+
+.box1{
+    height: 300px;
+    width: 300px;
+    background-image: url(Image/abs0.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    transition-duration: 0.5s;
+}
+
+.box1:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Image/abs0.jpg);
+}
+
+.box1 p{
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+
+.box1:hover p{
+    opacity: 1;
+}
+
+.box2{
+    height: 300px;
+    width: 300px;
+    background-image: url(Image/canva0.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    transition-duration: 0.5s;
+}
+
+.box2:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Image/canva0.jpg);
+}
+
+.box2 p{
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+
+.box2:hover p{
+    opacity: 1;
+}
+
+.box3{
+    height: 300px;
+    width: 300px;
+    background-image: url(Image/element.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    transition-duration: 0.5s;
+}
+
+.box3:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Image/element.jpg);
+}
+
+.box3 p{
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+
+.box3:hover p{
+    opacity: 1;
+}
+
+
+.box4{
+    height: 300px;
+    width: 300px;
+    background-image: url(Image/art0.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    transition-duration: 0.5s;
+}
+
+.box4:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Image/art0.jpg);
+}
+
+.box4 p{
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+
+.box4:hover p{
+    opacity: 1;
+}

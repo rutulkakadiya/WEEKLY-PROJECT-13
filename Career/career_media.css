@@ -1,0 +1,41 @@
+@media (min-width: 993px) and (max-width: 1300px){
+    
+}
+
+@media (min-width: 769px) and (max-width: 992px){
+    #txt1{
+        font-size: 150px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px){
+    #txt1{
+        font-size: 100px;
+    }
+    .offcanvas{
+        width: 100%;
+    }
+    .box2{
+        width: 100%;
+        margin-left: 0%;
+    }
+    #p1{
+        width: 90%;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 576px){
+    #txt1{
+        font-size: 50px;
+    }
+    .offcanvas{
+        width: 100%;
+    }
+    #p1{
+        width: 90%;
+    }
+    .box2{
+        width: 100%;
+        margin-left: 0%;
+    }
+}

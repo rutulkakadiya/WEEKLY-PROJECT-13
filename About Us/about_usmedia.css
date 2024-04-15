@@ -1,0 +1,45 @@
+@media (min-width: 993px) and (max-width: 1300px){
+    
+}
+
+@media (min-width: 769px) and (max-width: 992px){
+    #txt1{
+        font-size: 150px;
+    }
+    .main1{
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px){
+    #txt1{
+        font-size: 180px;
+    }
+    .main1{
+        width: 100%;
+        margin-left: 0%;
+        position: relative;
+        top: -18vh;
+        font-weight: lighter;
+    }
+    .offcanvas{
+        width: 100%;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 576px){
+    #txt1{
+        font-size: 100px;
+    }
+    .main1{
+        width: 100%;
+        margin-left: 0%;
+        position: relative;
+        top: -15vh;
+        font-weight: lighter;
+    }
+    .offcanvas{
+        width: 100%;
+    }
+}
